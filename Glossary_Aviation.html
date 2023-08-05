@@ -1,0 +1,1764 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="Cecilia" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFF00 }
+      th.style1 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFF00 }
+      table.sheet0 col.col0 { width:177.57777574pt }
+      table.sheet0 col.col1 { width:213.49999755pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">English</td>
+            <td class="column1 style1 s">French</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style0 s">flapper-type</td>
+            <td class="column1 style0 s">a battant</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style0 s">aboard</td>
+            <td class="column1 style0 s">a bord</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style0 s">ex-ship</td>
+            <td class="column1 style0 s">a bord</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style0 s">beside</td>
+            <td class="column1 style0 s">a cote de</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style0 s">remote</td>
+            <td class="column1 style0 s">a distance</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style0 s">slotted</td>
+            <td class="column1 style0 s">a fente</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style0 s">slotted</td>
+            <td class="column1 style0 s">à fente</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style0 s">outboard of…</td>
+            <td class="column1 style0 s">a l’exterieur de...</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style0 s">as a rule</td>
+            <td class="column1 style0 s">a priori</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style0 s">no-load</td>
+            <td class="column1 style0 s">a vide</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style0 s">off-load</td>
+            <td class="column1 style0 s">a vide</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style0 s">empty</td>
+            <td class="column1 style0 s">à vide</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style0 s">roll-off</td>
+            <td class="column1 style0 s">abattee sur une aile</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style0 s">flight battery</td>
+            <td class="column1 style0 s">accu de vol</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style0 s">negative 'g' flight battery</td>
+            <td class="column1 style0 s">accu de vol à ‘g’ négatif</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style0 s">airbrakes</td>
+            <td class="column1 style0 s">aérofreins</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style0 s">flight aids</td>
+            <td class="column1 style0 s">aides au pilotage</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style0 s">flight augmentation</td>
+            <td class="column1 style0 s">aides au pilotage</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style0 s">control augmentation system</td>
+            <td class="column1 style0 s">aides au pilotage</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style0 s">flying aids</td>
+            <td class="column1 style0 s">aides au pilotage</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style0 s">pointers</td>
+            <td class="column1 style0 s">aiguilles</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style0 s">variable-camber wing</td>
+            <td class="column1 style0 s">aile a cambrure variable</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style0 s">forward-swept wing</td>
+            <td class="column1 style0 s">aile a fleche inversee</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style0 s">mission adaptive wing (technology)</td>
+            <td class="column1 style0 s">aile adaptable a diverses missions</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style0 s">canard wing/canards</td>
+            <td class="column1 style0 s">aile canard</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style0 s">hydrofoil</td>
+            <td class="column1 style0 s">aile d’hydroptere</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style0 s">extrusion flange</td>
+            <td class="column1 style0 s">aile de corniere</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style0 s">delta truncated wing/surface</td>
+            <td class="column1 style0 s">aile delta tronquee</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style0 s">arrow (type) wing</td>
+            <td class="column1 style0 s">aile en fleche</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style0 s">aileron</td>
+            <td class="column1 style0 s">aileron</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style0 s">air-to-air</td>
+            <td class="column1 style0 s">air-air</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style0 s">elongation</td>
+            <td class="column1 style0 s">allongement</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style0 s">alternator</td>
+            <td class="column1 style0 s">alternateur</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style0 s">amber</td>
+            <td class="column1 style0 s">ambre</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style0 s">layout</td>
+            <td class="column1 style0 s">aménagement</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style0 s">absorption</td>
+            <td class="column1 style0 s">amortissement</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style0 s">damping</td>
+            <td class="column1 style0 s">amortissement</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style0 s">oscillation damping</td>
+            <td class="column1 style0 s">amortissement d’une oscillation</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style0 s">internal damping</td>
+            <td class="column1 style0 s">amortissement interne</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style0 s">airspeed mach meter</td>
+            <td class="column1 style0 s">anémomachmètre</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style0 s">incidence angle</td>
+            <td class="column1 style0 s">angle d' incidence</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style0 s">angle of attack/incidence</td>
+            <td class="column1 style0 s">angle d’incidence</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style0 s">stall angle</td>
+            <td class="column1 style0 s">angle d’incidence critique</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style0 s">blade angle</td>
+            <td class="column1 style0 s">angle d’incidence de pale</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style0 s">manacle ring</td>
+            <td class="column1 style0 s">anneau/bande de raccordemt.a corps cyl.</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style0 s">antenna</td>
+            <td class="column1 style0 s">antenne</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style0 s">angle of attack sensor</td>
+            <td class="column1 style0 s">antenne d’incidence</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style0 s">incidence probe</td>
+            <td class="column1 style0 s">antenne d’incidence</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style0 s">radar detector antenna</td>
+            <td class="column1 style0 s">antenne détecteur de radar</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style0 s">anti-icing</td>
+            <td class="column1 style0 s">anti-givrage</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style0 s">reflex anti-icing</td>
+            <td class="column1 style0 s">anti-givrage des réflex</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style0 s">August</td>
+            <td class="column1 style0 s">août</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style0 s">firing deployer</td>
+            <td class="column1 style0 s">appauvrisseur de tir</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style0 s">Approved by</td>
+            <td class="column1 style0 s">Approuvee par</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style0 s">accessory drive shaft</td>
+            <td class="column1 style0 s">arbre d’entrainement des accessoires</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style0 s">weapons</td>
+            <td class="column1 style0 s">armement</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style0 s">REAR</td>
+            <td class="column1 style0 s">ARRIERE</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style0 s">exhaust system</td>
+            <td class="column1 style0 s">arriere-corps</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style0 s">afterbody</td>
+            <td class="column1 style0 s">arriere-corps</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style0 s">servo</td>
+            <td class="column1 style0 s">asservissement</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style0 s">attack</td>
+            <td class="column1 style0 s">attaque</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style0 s">air-to-air attack</td>
+            <td class="column1 style0 s">attaque air-air</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style0 s">damping</td>
+            <td class="column1 style0 s">attenuation (amortissement mecanique)</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style0 s">landing</td>
+            <td class="column1 style0 s">atterrissage</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style0 s">landing gear</td>
+            <td class="column1 style0 s">atterrisseurs</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style0 s">over</td>
+            <td class="column1 style0 s">au-dessus</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style0 s">wash-in</td>
+            <td class="column1 style0 s">augmentation d’incidence</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style0 s">integrated self-checking</td>
+            <td class="column1 style0 s">auto controle incorpore</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0 style0 s">special authorization</td>
+            <td class="column1 style0 s">autorisation particuliere</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style0 s">FRONT</td>
+            <td class="column1 style0 s">AVANT</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style0 s">FORWARD</td>
+            <td class="column1 style0 s">AVANT-PROPOS</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style0 s">with loads</td>
+            <td class="column1 style0 s">avec charges</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0 style0 s">audible warning</td>
+            <td class="column1 style0 s">avertisseur sonore</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style0 s">aircraft</td>
+            <td class="column1 style0 s">avion</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style0 s">clean-full aircraft</td>
+            <td class="column1 style0 s">avion lisse-plein complet</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0 style0 s">MIRAGE F1B AIRPLANE</td>
+            <td class="column1 style0 s">AVION MIRAGE F1B</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style0 s">April</td>
+            <td class="column1 style0 s">avril</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0 style0 s">pitch-change axis</td>
+            <td class="column1 style0 s">axe d’incidence</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style0 s">recessed axes</td>
+            <td class="column1 style0 s">axes encastres</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0 style0 s">pan</td>
+            <td class="column1 style0 s">bac</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0 style0 s">beverage canister</td>
+            <td class="column1 style0 s">bac a boissons</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0 style0 s">battery case/box</td>
+            <td class="column1 style0 s">bac d’accumulateur</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0 style0 s">anodising tank</td>
+            <td class="column1 style0 s">bac d’ionisation</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0 style0 s">drain pan</td>
+            <td class="column1 style0 s">bac de recuperation</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style0 s">hydraulic tank</td>
+            <td class="column1 style0 s">bache</td>
+          </tr>
+          <tr class="row86">
+            <td class="column0 style0 s">reservoir</td>
+            <td class="column1 style0 s">bache</td>
+          </tr>
+          <tr class="row87">
+            <td class="column0 style0 s">tarpaulin</td>
+            <td class="column1 style0 s">bache de protection</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0 style0 s">emergency header tank</td>
+            <td class="column1 style0 s">bache de secours</td>
+          </tr>
+          <tr class="row89">
+            <td class="column0 style0 s">baffle</td>
+            <td class="column1 style0 s">baffle</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0 style0 s">console</td>
+            <td class="column1 style0 s">banquette (poste de pilotage...</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0 style0 s">low</td>
+            <td class="column1 style0 s">bas</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0 style0 s">tilting</td>
+            <td class="column1 style0 s">basculant</td>
+          </tr>
+          <tr class="row93">
+            <td class="column0 style0 s">BATTERY</td>
+            <td class="column1 style0 s">BATTERIE</td>
+          </tr>
+          <tr class="row94">
+            <td class="column0 style0 s">on-board battery</td>
+            <td class="column1 style0 s">batterie de bord</td>
+          </tr>
+          <tr class="row95">
+            <td class="column0 style0 s">slat</td>
+            <td class="column1 style0 s">bec</td>
+          </tr>
+          <tr class="row96">
+            <td class="column0 style0 s">external slat</td>
+            <td class="column1 style0 s">bec externe</td>
+          </tr>
+          <tr class="row97">
+            <td class="column0 style0 s">internal slat</td>
+            <td class="column1 style0 s">bec interne</td>
+          </tr>
+          <tr class="row98">
+            <td class="column0 style0 s">slats</td>
+            <td class="column1 style0 s">becs</td>
+          </tr>
+          <tr class="row99">
+            <td class="column0 style0 s">auto slats</td>
+            <td class="column1 style0 s">becs auto</td>
+          </tr>
+          <tr class="row100">
+            <td class="column0 style0 s">two-seater</td>
+            <td class="column1 style0 s">biplace</td>
+          </tr>
+          <tr class="row101">
+            <td class="column0 style0 s">choke (coil)</td>
+            <td class="column1 style0 s">bobine d’amortissement (electron.)</td>
+          </tr>
+          <tr class="row102">
+            <td class="column0 style0 s">terminal box</td>
+            <td class="column1 style0 s">boite a bornes</td>
+          </tr>
+          <tr class="row103">
+            <td class="column0 style0 s">capacity divider</td>
+            <td class="column1 style0 s">boite a capacites</td>
+          </tr>
+          <tr class="row104">
+            <td class="column0 style0 s">valve box</td>
+            <td class="column1 style0 s">boite a clapets</td>
+          </tr>
+          <tr class="row105">
+            <td class="column0 style0 s">fuse box</td>
+            <td class="column1 style0 s">boite a fusibles</td>
+          </tr>
+          <tr class="row106">
+            <td class="column0 style0 s">grease-packing gland/receptacle</td>
+            <td class="column1 style0 s">boite a graisse</td>
+          </tr>
+          <tr class="row107">
+            <td class="column0 style0 s">relay box</td>
+            <td class="column1 style0 s">boîte relais</td>
+          </tr>
+          <tr class="row108">
+            <td class="column0 style0 s">missile guidance relay box</td>
+            <td class="column1 style0 s">boite relais pilotage d’engins</td>
+          </tr>
+          <tr class="row109">
+            <td class="column0 style0 s">indication box</td>
+            <td class="column1 style0 s">boitier de controle</td>
+          </tr>
+          <tr class="row110">
+            <td class="column0 style0 s">timer housing</td>
+            <td class="column1 style0 s">boîtier temporisateur</td>
+          </tr>
+          <tr class="row111">
+            <td class="column0 style0 s">servo unit</td>
+            <td class="column1 style0 s">boîtiers d’asservissement</td>
+          </tr>
+          <tr class="row112">
+            <td class="column0 style0 s">leading edge</td>
+            <td class="column1 style0 s">bord d'attaque</td>
+          </tr>
+          <tr class="row113">
+            <td class="column0 style0 s">trailing edge</td>
+            <td class="column1 style0 s">bord de fuite</td>
+          </tr>
+          <tr class="row114">
+            <td class="column0 style0 s">TBO-17-10605_Aircraft Manual</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row115">
+            <td class="column0 style0 s">start-up bypass</td>
+            <td class="column1 style0 s">by-pass de démarrage</td>
+          </tr>
+          <tr class="row116">
+            <td class="column0 style0 s">sprocket capstan</td>
+            <td class="column1 style0 s">cabestan a roue dentee</td>
+          </tr>
+          <tr class="row117">
+            <td class="column0 style0 s">electrical disconnect capstan</td>
+            <td class="column1 style0 s">cabestan electrique</td>
+          </tr>
+          <tr class="row118">
+            <td class="column0 style0 s">cabin</td>
+            <td class="column1 style0 s">cabine</td>
+          </tr>
+          <tr class="row119">
+            <td class="column0 style0 s">passenger cabin</td>
+            <td class="column1 style0 s">cabine passagers</td>
+          </tr>
+          <tr class="row120">
+            <td class="column0 style0 s">pilot cabin</td>
+            <td class="column1 style0 s">cabine pilote</td>
+          </tr>
+          <tr class="row121">
+            <td class="column0 style0 s">wiring</td>
+            <td class="column1 style0 s">cablage</td>
+          </tr>
+          <tr class="row122">
+            <td class="column0 style0 s">external wiring</td>
+            <td class="column1 style0 s">cablage exterieur</td>
+          </tr>
+          <tr class="row123">
+            <td class="column0 style0 s">jacketed wire</td>
+            <td class="column1 style0 s">cablage gaine</td>
+          </tr>
+          <tr class="row124">
+            <td class="column0 style0 s">electrical harness</td>
+            <td class="column1 style0 s">cablage pre-assemble</td>
+          </tr>
+          <tr class="row125">
+            <td class="column0 style0 s">cable loom</td>
+            <td class="column1 style0 s">cablage pre-assemble</td>
+          </tr>
+          <tr class="row126">
+            <td class="column0 style0 s">lang lay-rope</td>
+            <td class="column1 style0 s">cable lang</td>
+          </tr>
+          <tr class="row127">
+            <td class="column0 style0 s">cover</td>
+            <td class="column1 style0 s">cache</td>
+          </tr>
+          <tr class="row128">
+            <td class="column0 style0 s">box</td>
+            <td class="column1 style0 s">caisson</td>
+          </tr>
+          <tr class="row129">
+            <td class="column0 style0 s">damping capacitor</td>
+            <td class="column1 style0 s">capacite d’amortissement</td>
+          </tr>
+          <tr class="row130">
+            <td class="column0 style0 s">PHYSICAL CHARACTERISTICS</td>
+            <td class="column1 style0 s">CARACTERISTIQUES PHYSIQUES</td>
+          </tr>
+          <tr class="row131">
+            <td class="column0 style0 s">TACTICAL CHARACTERISTICS</td>
+            <td class="column1 style0 s">CARACTERISTIQUES TACTIQUES</td>
+          </tr>
+          <tr class="row132">
+            <td class="column0 style0 s">TECHNICAL CHARACTERISTICS</td>
+            <td class="column1 style0 s">CARACTERISTIQUES TECHNIQUES</td>
+          </tr>
+          <tr class="row133">
+            <td class="column0 style0 s">fuel</td>
+            <td class="column1 style0 s">carburant</td>
+          </tr>
+          <tr class="row134">
+            <td class="column0 style0 s">fairing</td>
+            <td class="column1 style0 s">casserole d’helice</td>
+          </tr>
+          <tr class="row135">
+            <td class="column0 style0 s">spinner</td>
+            <td class="column1 style0 s">casserole d’helice</td>
+          </tr>
+          <tr class="row136">
+            <td class="column0 style0 s">flight controls</td>
+            <td class="column1 style0 s">cdes de vol</td>
+          </tr>
+          <tr class="row137">
+            <td class="column0 style0 s">cell</td>
+            <td class="column1 style0 s">cellule</td>
+          </tr>
+          <tr class="row138">
+            <td class="column0 style0 s">air data system</td>
+            <td class="column1 style0 s">centrale aero</td>
+          </tr>
+          <tr class="row139">
+            <td class="column0 style0 s">CGC 53</td>
+            <td class="column1 style0 s">CGC 53</td>
+          </tr>
+          <tr class="row140">
+            <td class="column0 style0 s">command generation channel (fl.cont….)</td>
+            <td class="column1 style0 s">chaine d’elaboration d’ordres(cdes.de vo</td>
+          </tr>
+          <tr class="row141">
+            <td class="column0 style0 s">attitude control system</td>
+            <td class="column1 style0 s">chaine de pilotage</td>
+          </tr>
+          <tr class="row142">
+            <td class="column0 style0 s">control channel</td>
+            <td class="column1 style0 s">chaine de pilotage</td>
+          </tr>
+          <tr class="row143">
+            <td class="column0 style0 s">balancing tail load</td>
+            <td class="column1 style0 s">charge d’equilibrage empennage horizontal</td>
+          </tr>
+          <tr class="row144">
+            <td class="column0 style0 s">vertical tail load</td>
+            <td class="column1 style0 s">charge sur surfaces verticaux de l’empennage</td>
+          </tr>
+          <tr class="row145">
+            <td class="column0 style0 s">fuel system</td>
+            <td class="column1 style0 s">circuit carburant</td>
+          </tr>
+          <tr class="row146">
+            <td class="column0 style0 s">monitor loop</td>
+            <td class="column1 style0 s">circuit de controle</td>
+          </tr>
+          <tr class="row147">
+            <td class="column0 style0 s">return circuit</td>
+            <td class="column1 style0 s">circuit de retour</td>
+          </tr>
+          <tr class="row148">
+            <td class="column0 style0 s">check valve</td>
+            <td class="column1 style0 s">clapet anti-retour</td>
+          </tr>
+          <tr class="row149">
+            <td class="column0 style0 s">damper valve</td>
+            <td class="column1 style0 s">clapet d’amortissement</td>
+          </tr>
+          <tr class="row150">
+            <td class="column0 style0 s">broaching valve</td>
+            <td class="column1 style0 s">clapet de fremage</td>
+          </tr>
+          <tr class="row151">
+            <td class="column0 style0 s">COMPANY CODE</td>
+            <td class="column1 style0 s">CODE ENTREPRISE</td>
+          </tr>
+          <tr class="row152">
+            <td class="column0 style0 s">head-down display</td>
+            <td class="column1 style0 s">collimateur tete basse</td>
+          </tr>
+          <tr class="row153">
+            <td class="column0 style0 s">head-up display</td>
+            <td class="column1 style0 s">collimateur tete haute</td>
+          </tr>
+          <tr class="row154">
+            <td class="column0 style0 s">head-level display</td>
+            <td class="column1 style0 s">collimateur tete moyenne</td>
+          </tr>
+          <tr class="row155">
+            <td class="column0 style0 s">aileron control</td>
+            <td class="column1 style0 s">commande de gauchissement</td>
+          </tr>
+          <tr class="row156">
+            <td class="column0 style0 s">controls and indicators/indications</td>
+            <td class="column1 style0 s">commandes et controles</td>
+          </tr>
+          <tr class="row157">
+            <td class="column0 style0 s">Provisional Supplement</td>
+            <td class="column1 style0 s">Complément provisoire</td>
+          </tr>
+          <tr class="row158">
+            <td class="column0 style0 s">twin-spool compressor</td>
+            <td class="column1 style0 s">compresseur double corps</td>
+          </tr>
+          <tr class="row159">
+            <td class="column0 style0 s">single-spool compressor</td>
+            <td class="column1 style0 s">compresseur simple corps</td>
+          </tr>
+          <tr class="row160">
+            <td class="column0 style0 s">instructions</td>
+            <td class="column1 style0 s">consignes</td>
+          </tr>
+          <tr class="row161">
+            <td class="column0 style0 s">procedure (application,control…</td>
+            <td class="column1 style0 s">consignes (application,controle...</td>
+          </tr>
+          <tr class="row162">
+            <td class="column0 style0 s">paddle switch</td>
+            <td class="column1 style0 s">contacteur a palette</td>
+          </tr>
+          <tr class="row163">
+            <td class="column0 style0 s">air-load (flap) switch</td>
+            <td class="column1 style0 s">contacteur a palette aerodynamique</td>
+          </tr>
+          <tr class="row164">
+            <td class="column0 style0 s">vane(-actuated) switch</td>
+            <td class="column1 style0 s">contacteur a palette aerodynamique</td>
+          </tr>
+          <tr class="row165">
+            <td class="column0 style0 s">dynamic pressure (actuated) switch</td>
+            <td class="column1 style0 s">contacteur a palette aerodynamique</td>
+          </tr>
+          <tr class="row166">
+            <td class="column0 style0 s">load monitor relay</td>
+            <td class="column1 style0 s">contacteur de controle de charge</td>
+          </tr>
+          <tr class="row167">
+            <td class="column0 style0 s">visual inspection</td>
+            <td class="column1 style0 s">controle d’aspect</td>
+          </tr>
+          <tr class="row168">
+            <td class="column0 style0 s">CONVERTER</td>
+            <td class="column1 style0 s">CONVERTISSEUR</td>
+          </tr>
+          <tr class="row169">
+            <td class="column0 style0 s">body</td>
+            <td class="column1 style0 s">corps</td>
+          </tr>
+          <tr class="row170">
+            <td class="column0 style0 s">body</td>
+            <td class="column1 style0 s">corps</td>
+          </tr>
+          <tr class="row171">
+            <td class="column0 style0 s">plug</td>
+            <td class="column1 style0 s">corps central</td>
+          </tr>
+          <tr class="row172">
+            <td class="column0 style0 s">centre-body</td>
+            <td class="column1 style0 s">corps central</td>
+          </tr>
+          <tr class="row173">
+            <td class="column0 style0 s">hub unit</td>
+            <td class="column1 style0 s">corps de moyeu</td>
+          </tr>
+          <tr class="row174">
+            <td class="column0 style0 s">handgrip</td>
+            <td class="column1 style0 s">corps de poignee</td>
+          </tr>
+          <tr class="row175">
+            <td class="column0 style0 s">corrector</td>
+            <td class="column1 style0 s">correcteur</td>
+          </tr>
+          <tr class="row176">
+            <td class="column0 style0 s">alternating current</td>
+            <td class="column1 style0 s">courant alternatif</td>
+          </tr>
+          <tr class="row177">
+            <td class="column0 style0 s">DASSAULT AVIATION</td>
+            <td class="column1 style0 s">DASSAULT AVIATION</td>
+          </tr>
+          <tr class="row178">
+            <td class="column0 style0 s">December</td>
+            <td class="column1 style0 s">décembre</td>
+          </tr>
+          <tr class="row179">
+            <td class="column0 style0 s">AMENDMENT DECISIONS</td>
+            <td class="column1 style0 s">DECISIONS DE MODIFICATION</td>
+          </tr>
+          <tr class="row180">
+            <td class="column0 style0 s">takeoff</td>
+            <td class="column1 style0 s">decollage</td>
+          </tr>
+          <tr class="row181">
+            <td class="column0 style0 s">takeoff</td>
+            <td class="column1 style0 s">décollage</td>
+          </tr>
+          <tr class="row182">
+            <td class="column0 style0 s">aircraft design</td>
+            <td class="column1 style0 s">définition de l'avion</td>
+          </tr>
+          <tr class="row183">
+            <td class="column0 style0 s">starting</td>
+            <td class="column1 style0 s">démarrage</td>
+          </tr>
+          <tr class="row184">
+            <td class="column0 style0 s">starter</td>
+            <td class="column1 style0 s">démarreur</td>
+          </tr>
+          <tr class="row185">
+            <td class="column0 style0 s">half-wings</td>
+            <td class="column1 style0 s">demi-voilures</td>
+          </tr>
+          <tr class="row186">
+            <td class="column0 style0 s">UPDATED</td>
+            <td class="column1 style0 s">DEMISE A JOUR</td>
+          </tr>
+          <tr class="row187">
+            <td class="column0 style0 s">vertical stabiliser</td>
+            <td class="column1 style0 s">derive</td>
+          </tr>
+          <tr class="row188">
+            <td class="column0 style0 s">demisting</td>
+            <td class="column1 style0 s">désembuage</td>
+          </tr>
+          <tr class="row189">
+            <td class="column0 style0 s">angle of attack probe</td>
+            <td class="column1 style0 s">detecteur d’incidence</td>
+          </tr>
+          <tr class="row190">
+            <td class="column0 style0 s">phase sequence detector</td>
+            <td class="column1 style0 s">detecteur d’ordre de phase</td>
+          </tr>
+          <tr class="row191">
+            <td class="column0 style0 s">Sunday</td>
+            <td class="column1 style0 s">dimanche</td>
+          </tr>
+          <tr class="row192">
+            <td class="column0 style0 s">dimensions</td>
+            <td class="column1 style0 s">dimensions</td>
+          </tr>
+          <tr class="row193">
+            <td class="column0 style0 s">overall dimensions</td>
+            <td class="column1 style0 s">dimensions hors tout</td>
+          </tr>
+          <tr class="row194">
+            <td class="column0 style0 s">wash-out</td>
+            <td class="column1 style0 s">diminution d’incidence</td>
+          </tr>
+          <tr class="row195">
+            <td class="column0 style0 s">circuit breaker</td>
+            <td class="column1 style0 s">disjoncteur</td>
+          </tr>
+          <tr class="row196">
+            <td class="column0 style0 s">control circuit breaker</td>
+            <td class="column1 style0 s">disjoncteur de commande</td>
+          </tr>
+          <tr class="row197">
+            <td class="column0 style0 s">power circuit breaker</td>
+            <td class="column1 style0 s">disjoncteur de puissance</td>
+          </tr>
+          <tr class="row198">
+            <td class="column0 style0 s">bleed valve</td>
+            <td class="column1 style0 s">distributeur purgeur</td>
+          </tr>
+          <tr class="row199">
+            <td class="column0 style0 s">oil drain</td>
+            <td class="column1 style0 s">drain d’huile</td>
+          </tr>
+          <tr class="row200">
+            <td class="column0 style0 s">LIMITED DISTRIBUTION</td>
+            <td class="column1 style0 s">DUFFUSION RESTREINTE</td>
+          </tr>
+          <tr class="row201">
+            <td class="column0 style0 s">lighting</td>
+            <td class="column1 style0 s">eclairage</td>
+          </tr>
+          <tr class="row202">
+            <td class="column0 style0 s">flow</td>
+            <td class="column1 style0 s">écoulement</td>
+          </tr>
+          <tr class="row203">
+            <td class="column0 style0 s">load chopper</td>
+            <td class="column1 style0 s">ecreteur d’incidence moteur</td>
+          </tr>
+          <tr class="row204">
+            <td class="column0 style0 s">commands computation (data unit…</td>
+            <td class="column1 style0 s">elaboration d’ordres (centrale de nav...</td>
+          </tr>
+          <tr class="row205">
+            <td class="column0 style0 s">electric pump</td>
+            <td class="column1 style0 s">électropompe</td>
+          </tr>
+          <tr class="row206">
+            <td class="column0 style0 s">outgoing elements</td>
+            <td class="column1 style0 s">eléments sortis</td>
+          </tr>
+          <tr class="row207">
+            <td class="column0 style0 s">wheelbase</td>
+            <td class="column1 style0 s">empattement</td>
+          </tr>
+          <tr class="row208">
+            <td class="column0 style0 s">tail</td>
+            <td class="column1 style0 s">empennage</td>
+          </tr>
+          <tr class="row209">
+            <td class="column0 style0 s">empennage</td>
+            <td class="column1 style0 s">empennage</td>
+          </tr>
+          <tr class="row210">
+            <td class="column0 style0 s">empennage</td>
+            <td class="column1 style0 s">empennage</td>
+          </tr>
+          <tr class="row211">
+            <td class="column0 style0 s">tail unit</td>
+            <td class="column1 style0 s">empennage</td>
+          </tr>
+          <tr class="row212">
+            <td class="column0 style0 s">tail group/surface</td>
+            <td class="column1 style0 s">empennage</td>
+          </tr>
+          <tr class="row213">
+            <td class="column0 style0 s">fin assembly</td>
+            <td class="column1 style0 s">empennage</td>
+          </tr>
+          <tr class="row214">
+            <td class="column0 style0 s">canard fins/surface</td>
+            <td class="column1 style0 s">empennage avant</td>
+          </tr>
+          <tr class="row215">
+            <td class="column0 style0 s">stabilator</td>
+            <td class="column1 style0 s">empennage monobloc</td>
+          </tr>
+          <tr class="row216">
+            <td class="column0 style0 s">TBO-17-10605_Aircraft Manual</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row217">
+            <td class="column0 style0 s">winding</td>
+            <td class="column1 style0 s">enroulement</td>
+          </tr>
+          <tr class="row218">
+            <td class="column0 style0 s">navigation set</td>
+            <td class="column1 style0 s">ensemble navigation</td>
+          </tr>
+          <tr class="row219">
+            <td class="column0 style0 s">radio set</td>
+            <td class="column1 style0 s">ensemble radio</td>
+          </tr>
+          <tr class="row220">
+            <td class="column0 style0 s">training</td>
+            <td class="column1 style0 s">entrainement</td>
+          </tr>
+          <tr class="row221">
+            <td class="column0 style0 s">fuel input</td>
+            <td class="column1 style0 s">entrée carburant</td>
+          </tr>
+          <tr class="row222">
+            <td class="column0 style0 s">air inlet</td>
+            <td class="column1 style0 s">entrée d’air</td>
+          </tr>
+          <tr class="row223">
+            <td class="column0 style0 s">span</td>
+            <td class="column1 style0 s">envergure</td>
+          </tr>
+          <tr class="row224">
+            <td class="column0 style0 s">high altitude equipment</td>
+            <td class="column1 style0 s">équipement haute altitude</td>
+          </tr>
+          <tr class="row225">
+            <td class="column0 style0 s">piloting equipment</td>
+            <td class="column1 style0 s">equipements de pilotage</td>
+          </tr>
+          <tr class="row226">
+            <td class="column0 style0 s">operational equipment</td>
+            <td class="column1 style0 s">equipements opérationnels</td>
+          </tr>
+          <tr class="row227">
+            <td class="column0 style0 s">AIR FORCE CHIEF OF STAFF</td>
+            <td class="column1 style0 s">ETAT MAJOR DE L’ARMEE DE L'AIR</td>
+          </tr>
+          <tr class="row228">
+            <td class="column0 style0 s">F 6117</td>
+            <td class="column1 style0 s">F 6117</td>
+          </tr>
+          <tr class="row229">
+            <td class="column0 style0 s">low elongation</td>
+            <td class="column1 style0 s">faible allongement</td>
+          </tr>
+          <tr class="row230">
+            <td class="column0 style0 s">February</td>
+            <td class="column1 style0 s">février</td>
+          </tr>
+          <tr class="row231">
+            <td class="column0 style0 s">flanks</td>
+            <td class="column1 style0 s">flancs</td>
+          </tr>
+          <tr class="row232">
+            <td class="column0 style0 s">fuselage flanks</td>
+            <td class="column1 style0 s">flancs de fuselage</td>
+          </tr>
+          <tr class="row233">
+            <td class="column0 style0 s">flow valves</td>
+            <td class="column1 style0 s">flux valves</td>
+          </tr>
+          <tr class="row234">
+            <td class="column0 style0 s">OPERATION</td>
+            <td class="column1 style0 s">FONCTIONNEMENT</td>
+          </tr>
+          <tr class="row235">
+            <td class="column0 style0 s">lightning strike</td>
+            <td class="column1 style0 s">foudroiement</td>
+          </tr>
+          <tr class="row236">
+            <td class="column0 style0 s">first order engine frequency</td>
+            <td class="column1 style0 s">frequence moteur du premier ordre</td>
+          </tr>
+          <tr class="row237">
+            <td class="column0 style0 s">TBO-17-10605_Aircraft Manual</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row238">
+            <td class="column0 style0 s">fuselage</td>
+            <td class="column1 style0 s">fuselage</td>
+          </tr>
+          <tr class="row239">
+            <td class="column0 style0 s">trigger</td>
+            <td class="column1 style0 s">gachette</td>
+          </tr>
+          <tr class="row240">
+            <td class="column0 style0 s">trigger</td>
+            <td class="column1 style0 s">gachette</td>
+          </tr>
+          <tr class="row241">
+            <td class="column0 style0 s">exhaust gas</td>
+            <td class="column1 style0 s">gaz d'échappement</td>
+          </tr>
+          <tr class="row242">
+            <td class="column0 style0 s">electric generation</td>
+            <td class="column1 style0 s">génération électrique</td>
+          </tr>
+          <tr class="row243">
+            <td class="column0 style0 s">hydraulic generation</td>
+            <td class="column1 style0 s">Génération hydraulique</td>
+          </tr>
+          <tr class="row244">
+            <td class="column0 style0 s">rudder</td>
+            <td class="column1 style0 s">gouvernail</td>
+          </tr>
+          <tr class="row245">
+            <td class="column0 style0 s">rudder</td>
+            <td class="column1 style0 s">gouvernail de direction</td>
+          </tr>
+          <tr class="row246">
+            <td class="column0 style0 s">bell crank lever</td>
+            <td class="column1 style0 s">guignol</td>
+          </tr>
+          <tr class="row247">
+            <td class="column0 style0 s">collective bell crank</td>
+            <td class="column1 style0 s">guignol additionneur</td>
+          </tr>
+          <tr class="row248">
+            <td class="column0 style0 s">bell crank</td>
+            <td class="column1 style0 s">guignol d’angle</td>
+          </tr>
+          <tr class="row249">
+            <td class="column0 style0 s">clutch release bell crank</td>
+            <td class="column1 style0 s">guignol debrayable</td>
+          </tr>
+          <tr class="row250">
+            <td class="column0 style0 s">lever</td>
+            <td class="column1 style0 s">guignol droit</td>
+          </tr>
+          <tr class="row251">
+            <td class="column0 style0 s">roller-carrying bell crank</td>
+            <td class="column1 style0 s">guignol porte-galet</td>
+          </tr>
+          <tr class="row252">
+            <td class="column0 style0 s">height</td>
+            <td class="column1 style0 s">hauteur</td>
+          </tr>
+          <tr class="row253">
+            <td class="column0 style0 s">overall</td>
+            <td class="column1 style0 s">hors tout</td>
+          </tr>
+          <tr class="row254">
+            <td class="column0 style0 s">lubricating oil</td>
+            <td class="column1 style0 s">huile de lubrification</td>
+          </tr>
+          <tr class="row255">
+            <td class="column0 style0 s">hyper-lift devices</td>
+            <td class="column1 style0 s">hypers</td>
+          </tr>
+          <tr class="row256">
+            <td class="column0 style0 s">hyper-sustained</td>
+            <td class="column1 style0 s">hypersustentée</td>
+          </tr>
+          <tr class="row257">
+            <td class="column0 style0 s">IFF</td>
+            <td class="column1 style0 s">IFF</td>
+          </tr>
+          <tr class="row258">
+            <td class="column0 style0 s">fire</td>
+            <td class="column1 style0 s">incendie</td>
+          </tr>
+          <tr class="row259">
+            <td class="column0 style0 s">incidence</td>
+            <td class="column1 style0 s">incidence</td>
+          </tr>
+          <tr class="row260">
+            <td class="column0 style0 s">aileron position indicator</td>
+            <td class="column1 style0 s">indicateur de position gauchissement</td>
+          </tr>
+          <tr class="row261">
+            <td class="column0 style0 s">T4 indicator</td>
+            <td class="column1 style0 s">Indicateur de T4</td>
+          </tr>
+          <tr class="row262">
+            <td class="column0 style0 s">tachometer indicator</td>
+            <td class="column1 style0 s">Indicateur tachymétrique</td>
+          </tr>
+          <tr class="row263">
+            <td class="column0 style0 s">switch</td>
+            <td class="column1 style0 s">interrupteur</td>
+          </tr>
+          <tr class="row264">
+            <td class="column0 style0 s">alternator switch</td>
+            <td class="column1 style0 s">interrupteur alternateur</td>
+          </tr>
+          <tr class="row265">
+            <td class="column0 style0 s">battery switch</td>
+            <td class="column1 style0 s">interrupteur batterie</td>
+          </tr>
+          <tr class="row266">
+            <td class="column0 style0 s">fire switch</td>
+            <td class="column1 style0 s">interrupteur coupe-feu</td>
+          </tr>
+          <tr class="row267">
+            <td class="column0 style0 s">circuit breaker switch</td>
+            <td class="column1 style0 s">interrupteur disjoncteur</td>
+          </tr>
+          <tr class="row268">
+            <td class="column0 style0 s">January</td>
+            <td class="column1 style0 s">janvier</td>
+          </tr>
+          <tr class="row269">
+            <td class="column0 style0 s">Thursday</td>
+            <td class="column1 style0 s">jeudi</td>
+          </tr>
+          <tr class="row270">
+            <td class="column0 style0 s">July</td>
+            <td class="column1 style0 s">juillet</td>
+          </tr>
+          <tr class="row271">
+            <td class="column0 style0 s">June</td>
+            <td class="column1 style0 s">juin</td>
+          </tr>
+          <tr class="row272">
+            <td class="column0 style0 s">TBO-17-10605_Aircraft Manual</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row273">
+            <td class="column0 style0 s">clean</td>
+            <td class="column1 style0 s">lisse</td>
+          </tr>
+          <tr class="row274">
+            <td class="column0 style0 s">liters</td>
+            <td class="column1 style0 s">litres</td>
+          </tr>
+          <tr class="row275">
+            <td class="column0 style0 s">length</td>
+            <td class="column1 style0 s">longueur</td>
+          </tr>
+          <tr class="row276">
+            <td class="column0 style0 s">Monday</td>
+            <td class="column1 style0 s">lundi</td>
+          </tr>
+          <tr class="row277">
+            <td class="column0 style0 s">Mach</td>
+            <td class="column1 style0 s">Mach</td>
+          </tr>
+          <tr class="row278">
+            <td class="column0 style0 s">May</td>
+            <td class="column1 style0 s">mai</td>
+          </tr>
+          <tr class="row279">
+            <td class="column0 style0 s">control stick</td>
+            <td class="column1 style0 s">manche pilote</td>
+          </tr>
+          <tr class="row280">
+            <td class="column0 style0 s">fuel hoses</td>
+            <td class="column1 style0 s">manches d'alimentation</td>
+          </tr>
+          <tr class="row281">
+            <td class="column0 style0 s">throttle lever</td>
+            <td class="column1 style0 s">manette des gaz</td>
+          </tr>
+          <tr class="row282">
+            <td class="column0 style0 s">manual</td>
+            <td class="column1 style0 s">manuel</td>
+          </tr>
+          <tr class="row283">
+            <td class="column0 style0 s">OPERATING MANUAL</td>
+            <td class="column1 style0 s">MANUEL D'UTILISATION</td>
+          </tr>
+          <tr class="row284">
+            <td class="column0 style0 s">maintenance manual</td>
+            <td class="column1 style0 s">manuel d'entretien</td>
+          </tr>
+          <tr class="row285">
+            <td class="column0 style0 s">pilot manual</td>
+            <td class="column1 style0 s">manuel pilote</td>
+          </tr>
+          <tr class="row286">
+            <td class="column0 style0 s">Tuesday</td>
+            <td class="column1 style0 s">mardi</td>
+          </tr>
+          <tr class="row287">
+            <td class="column0 style0 s">MARKER</td>
+            <td class="column1 style0 s">MARKER</td>
+          </tr>
+          <tr class="row288">
+            <td class="column0 style0 s">March</td>
+            <td class="column1 style0 s">mars</td>
+          </tr>
+          <tr class="row289">
+            <td class="column0 style0 s">empty weight equipped</td>
+            <td class="column1 style0 s">masse à vide équipé</td>
+          </tr>
+          <tr class="row290">
+            <td class="column0 style0 s">total mass</td>
+            <td class="column1 style0 s">masse totale</td>
+          </tr>
+          <tr class="row291">
+            <td class="column0 style0 s">Wednesday</td>
+            <td class="column1 style0 s">mercredi</td>
+          </tr>
+          <tr class="row292">
+            <td class="column0 style0 s">Mirage 2000</td>
+            <td class="column1 style0 s">Mirage 2000</td>
+          </tr>
+          <tr class="row293">
+            <td class="column0 style0 s">update</td>
+            <td class="column1 style0 s">Mise à jour</td>
+          </tr>
+          <tr class="row294">
+            <td class="column0 style0 s">start-up</td>
+            <td class="column1 style0 s">mise en route</td>
+          </tr>
+          <tr class="row295">
+            <td class="column0 style0 s">missiles</td>
+            <td class="column1 style0 s">missiles</td>
+          </tr>
+          <tr class="row296">
+            <td class="column0 style0 s">AMENDMENT</td>
+            <td class="column1 style0 s">MODIFICATIF</td>
+          </tr>
+          <tr class="row297">
+            <td class="column0 style0 s">torque motor</td>
+            <td class="column1 style0 s">moteur couple</td>
+          </tr>
+          <tr class="row298">
+            <td class="column0 style0 s">electric motor</td>
+            <td class="column1 style0 s">moteur électrique</td>
+          </tr>
+          <tr class="row299">
+            <td class="column0 style0 s">TBO-17-10605_Aircraft Manual</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row300">
+            <td class="column0 style0 s">TBO-17-10605_Aircraft Manual</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row301">
+            <td class="column0 style0 s">No.</td>
+            <td class="column1 style0 s">N°</td>
+          </tr>
+          <tr class="row302">
+            <td class="column0 style0 s">navigation</td>
+            <td class="column1 style0 s">navigation</td>
+          </tr>
+          <tr class="row303">
+            <td class="column0 style0 s">knot</td>
+            <td class="column1 style0 s">noeuds</td>
+          </tr>
+          <tr class="row304">
+            <td class="column0 style0 s">Mach number</td>
+            <td class="column1 style0 s">nombre de Mach</td>
+          </tr>
+          <tr class="row305">
+            <td class="column0 style0 s">drums</td>
+            <td class="column1 style0 s">nourrices</td>
+          </tr>
+          <tr class="row306">
+            <td class="column0 style0 s">November</td>
+            <td class="column1 style0 s">novembre</td>
+          </tr>
+          <tr class="row307">
+            <td class="column0 style0 s">tapered cone</td>
+            <td class="column1 style0 s">noyau conique</td>
+          </tr>
+          <tr class="row308">
+            <td class="column0 style0 s">terrestrial objectives</td>
+            <td class="column1 style0 s">objectifs terrestres</td>
+          </tr>
+          <tr class="row309">
+            <td class="column0 style0 s">SUBJECT</td>
+            <td class="column1 style0 s">OBJET</td>
+          </tr>
+          <tr class="row310">
+            <td class="column0 style0 s">October</td>
+            <td class="column1 style0 s">octobre</td>
+          </tr>
+          <tr class="row311">
+            <td class="column0 style0 s">shock waves</td>
+            <td class="column1 style0 s">ondes de choc</td>
+          </tr>
+          <tr class="row312">
+            <td class="column0 style0 s">slave (template)</td>
+            <td class="column1 style0 s">palette (gabarit)</td>
+          </tr>
+          <tr class="row313">
+            <td class="column0 style0 s">spring flap</td>
+            <td class="column1 style0 s">palette a ressort</td>
+          </tr>
+          <tr class="row314">
+            <td class="column0 style0 s">arming vane</td>
+            <td class="column1 style0 s">palette aerodynamique</td>
+          </tr>
+          <tr class="row315">
+            <td class="column0 style0 s">weathercockvane</td>
+            <td class="column1 style0 s">palette aerodynamique</td>
+          </tr>
+          <tr class="row316">
+            <td class="column0 style0 s">pallet</td>
+            <td class="column1 style0 s">palette de chargement</td>
+          </tr>
+          <tr class="row317">
+            <td class="column0 style0 s">l/g down-lock optical inspection flap</td>
+            <td class="column1 style0 s">palette de controle optique de train</td>
+          </tr>
+          <tr class="row318">
+            <td class="column0 style0 s">bearing</td>
+            <td class="column1 style0 s">palier</td>
+          </tr>
+          <tr class="row319">
+            <td class="column0 style0 s">FAILURES</td>
+            <td class="column1 style0 s">PANNES</td>
+          </tr>
+          <tr class="row320">
+            <td class="column0 style0 s">parachute brake</td>
+            <td class="column1 style0 s">parachute frein</td>
+          </tr>
+          <tr class="row321">
+            <td class="column0 style0 s">landing light</td>
+            <td class="column1 style0 s">phare d’atterrissage</td>
+          </tr>
+          <tr class="row322">
+            <td class="column0 style0 s">feet</td>
+            <td class="column1 style0 s">pieds</td>
+          </tr>
+          <tr class="row323">
+            <td class="column0 style0 s">pilot</td>
+            <td class="column1 style0 s">pilote</td>
+          </tr>
+          <tr class="row324">
+            <td class="column0 style0 s">autopilot</td>
+            <td class="column1 style0 s">pilote automatique</td>
+          </tr>
+          <tr class="row325">
+            <td class="column0 style0 s">front position</td>
+            <td class="column1 style0 s">place avant</td>
+          </tr>
+          <tr class="row326">
+            <td class="column0 style0 s">limit</td>
+            <td class="column1 style0 s">plafond</td>
+          </tr>
+          <tr class="row327">
+            <td class="column0 style0 s">full</td>
+            <td class="column1 style0 s">plein complet</td>
+          </tr>
+          <tr class="row328">
+            <td class="column0 style0 s">control grip</td>
+            <td class="column1 style0 s">poigéee du manche</td>
+          </tr>
+          <tr class="row329">
+            <td class="column0 style0 s">radar tip</td>
+            <td class="column1 style0 s">Pointe radar</td>
+          </tr>
+          <tr class="row330">
+            <td class="column0 style0 s">load attachment points</td>
+            <td class="column1 style0 s">points d'accrochage des charges</td>
+          </tr>
+          <tr class="row331">
+            <td class="column0 style0 s">pump</td>
+            <td class="column1 style0 s">pompe</td>
+          </tr>
+          <tr class="row332">
+            <td class="column0 style0 s">start-up pump</td>
+            <td class="column1 style0 s">pompe de démarrage</td>
+          </tr>
+          <tr class="row333">
+            <td class="column0 style0 s">electric pump</td>
+            <td class="column1 style0 s">pompe électrique</td>
+          </tr>
+          <tr class="row334">
+            <td class="column0 style0 s">hydraulic pump</td>
+            <td class="column1 style0 s">pompe hydraulique</td>
+          </tr>
+          <tr class="row335">
+            <td class="column0 style0 s">mechanical pump</td>
+            <td class="column1 style0 s">pompe mécanique</td>
+          </tr>
+          <tr class="row336">
+            <td class="column0 style0 s">air inlet doors</td>
+            <td class="column1 style0 s">portes d'entrée d'air</td>
+          </tr>
+          <tr class="row337">
+            <td class="column0 style0 s">TBO-17-10605_Aircraft Manual</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row338">
+            <td class="column0 style0 s">unstable position</td>
+            <td class="column1 style0 s">position instable</td>
+          </tr>
+          <tr class="row339">
+            <td class="column0 style0 s">stable positions</td>
+            <td class="column1 style0 s">positions stables</td>
+          </tr>
+          <tr class="row340">
+            <td class="column0 style0 s">CARRYING CAPACITY</td>
+            <td class="column1 style0 s">POSSIBILITES D'EMPORT</td>
+          </tr>
+          <tr class="row341">
+            <td class="column0 style0 s">afterburner</td>
+            <td class="column1 style0 s">postcombustion</td>
+          </tr>
+          <tr class="row342">
+            <td class="column0 style0 s">COCKPIT</td>
+            <td class="column1 style0 s">POSTE DE PILOTAGE</td>
+          </tr>
+          <tr class="row343">
+            <td class="column0 style0 s">thrust</td>
+            <td class="column1 style0 s">poussée au bane</td>
+          </tr>
+          <tr class="row344">
+            <td class="column0 style0 s">pushbutton</td>
+            <td class="column1 style0 s">poussoir</td>
+          </tr>
+          <tr class="row345">
+            <td class="column0 style0 s">pressure</td>
+            <td class="column1 style0 s">pression</td>
+          </tr>
+          <tr class="row346">
+            <td class="column0 style0 s">ground connection</td>
+            <td class="column1 style0 s">prise de parc</td>
+          </tr>
+          <tr class="row347">
+            <td class="column0 style0 s">pressure tap</td>
+            <td class="column1 style0 s">prise de pression</td>
+          </tr>
+          <tr class="row348">
+            <td class="column0 style0 s">static pressure tap</td>
+            <td class="column1 style0 s">prise de pression statique</td>
+          </tr>
+          <tr class="row349">
+            <td class="column0 style0 s">pressurized fuel filling socket</td>
+            <td class="column1 style0 s">Prise de remplissage carburant sous pression</td>
+          </tr>
+          <tr class="row350">
+            <td class="column0 style0 s">static socket</td>
+            <td class="column1 style0 s">prise statique</td>
+          </tr>
+          <tr class="row351">
+            <td class="column0 style0 s">procedure</td>
+            <td class="column1 style0 s">procédure</td>
+          </tr>
+          <tr class="row352">
+            <td class="column0 style0 s">Mirage 2000 procedure</td>
+            <td class="column1 style0 s">procédure Mirage 2000</td>
+          </tr>
+          <tr class="row353">
+            <td class="column0 style0 s">operating procedures</td>
+            <td class="column1 style0 s">procédures d'utilisation</td>
+          </tr>
+          <tr class="row354">
+            <td class="column0 style0 s">EMERGENCY PROCEDURES AND MANOEUVRES</td>
+            <td class="column1 style0 s">PROCEDURES ET MANŒUVRES DE SECOURS</td>
+          </tr>
+          <tr class="row355">
+            <td class="column0 style0 s">propulsion</td>
+            <td class="column1 style0 s">propulsion</td>
+          </tr>
+          <tr class="row356">
+            <td class="column0 style0 s">Keel</td>
+            <td class="column1 style0 s">Quille</td>
+          </tr>
+          <tr class="row357">
+            <td class="column0 style0 s">Keel tracking phone jack</td>
+            <td class="column1 style0 s">Quille</td>
+          </tr>
+          <tr class="row358">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+          </tr>
+          <tr class="row359">
+            <td class="column0 style0 s">radio</td>
+            <td class="column1 style0 s">radio</td>
+          </tr>
+          <tr class="row360">
+            <td class="column0 style0 s">re.ignition</td>
+            <td class="column1 style0 s">rallumage</td>
+          </tr>
+          <tr class="row361">
+            <td class="column0 style0 s">engine</td>
+            <td class="column1 style0 s">réacteur</td>
+          </tr>
+          <tr class="row362">
+            <td class="column0 style0 s">MANUFACTURER REFERENCE</td>
+            <td class="column1 style0 s">REFERENCE FABRICANT</td>
+          </tr>
+          <tr class="row363">
+            <td class="column0 style0 s">cooling</td>
+            <td class="column1 style0 s">refroidissement</td>
+          </tr>
+          <tr class="row364">
+            <td class="column0 style0 s">relay</td>
+            <td class="column1 style0 s">relais</td>
+          </tr>
+          <tr class="row365">
+            <td class="column0 style0 s">fuel refueling by gravity</td>
+            <td class="column1 style0 s">remplissage carburant par gravite</td>
+          </tr>
+          <tr class="row366">
+            <td class="column0 style0 s">retraction</td>
+            <td class="column1 style0 s">rentrée</td>
+          </tr>
+          <tr class="row367">
+            <td class="column0 style0 s">backup network</td>
+            <td class="column1 style0 s">réseau de secours</td>
+          </tr>
+          <tr class="row368">
+            <td class="column0 style0 s">fuel tank</td>
+            <td class="column1 style0 s">réservoir carburant</td>
+          </tr>
+          <tr class="row369">
+            <td class="column0 style0 s">fuel tanks</td>
+            <td class="column1 style0 s">réservoirs de carburant</td>
+          </tr>
+          <tr class="row370">
+            <td class="column0 style0 s">TBO-17-10605_Aircraft Manual</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row371">
+            <td class="column0 style0 s">valve</td>
+            <td class="column1 style0 s">robinet</td>
+          </tr>
+          <tr class="row372">
+            <td class="column0 style0 s">rotor</td>
+            <td class="column1 style0 s">rotor</td>
+          </tr>
+          <tr class="row373">
+            <td class="column0 style0 s">red</td>
+            <td class="column1 style0 s">rouge</td>
+          </tr>
+          <tr class="row374">
+            <td class="column0 style0 s">rolling</td>
+            <td class="column1 style0 s">roulage</td>
+          </tr>
+          <tr class="row375">
+            <td class="column0 style0 s">wheel</td>
+            <td class="column1 style0 s">roulette</td>
+          </tr>
+          <tr class="row376">
+            <td class="column0 style0 s">swivelling front wheel</td>
+            <td class="column1 style0 s">roulette avant orientable</td>
+          </tr>
+          <tr class="row377">
+            <td class="column0 style0 s">Saturday</td>
+            <td class="column1 style0 s">samedi</td>
+          </tr>
+          <tr class="row378">
+            <td class="column0 style0 s">TBO-17-10605_Aircraft Manual</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row379">
+            <td class="column0 style0 s">converter selector</td>
+            <td class="column1 style0 s">sélecteur convertisseur</td>
+          </tr>
+          <tr class="row380">
+            <td class="column0 style0 s">September</td>
+            <td class="column1 style0 s">septembre</td>
+          </tr>
+          <tr class="row381">
+            <td class="column0 style0 s">servitudes</td>
+            <td class="column1 style0 s">servitudes</td>
+          </tr>
+          <tr class="row382">
+            <td class="column0 style0 s">hydraulic controls</td>
+            <td class="column1 style0 s">servitudes hydrauliques</td>
+          </tr>
+          <tr class="row383">
+            <td class="column0 style0 s">ground</td>
+            <td class="column1 style0 s">sol</td>
+          </tr>
+          <tr class="row384">
+            <td class="column0 style0 s">temperature sensor</td>
+            <td class="column1 style0 s">sonde de température</td>
+          </tr>
+          <tr class="row385">
+            <td class="column0 style0 s">inlet cone</td>
+            <td class="column1 style0 s">souris</td>
+          </tr>
+          <tr class="row386">
+            <td class="column0 style0 s">equipment bunkers</td>
+            <td class="column1 style0 s">soutes à équipements</td>
+          </tr>
+          <tr class="row387">
+            <td class="column0 style0 s">spoiler</td>
+            <td class="column1 style0 s">spoiler</td>
+          </tr>
+          <tr class="row388">
+            <td class="column0 style0 s">subsonic</td>
+            <td class="column1 style0 s">subsonique</td>
+          </tr>
+          <tr class="row389">
+            <td class="column0 style0 s">supersonic</td>
+            <td class="column1 style0 s">supersonique</td>
+          </tr>
+          <tr class="row390">
+            <td class="column0 style0 s">supplement</td>
+            <td class="column1 style0 s">supplément</td>
+          </tr>
+          <tr class="row391">
+            <td class="column0 style0 s">supplement in effect</td>
+            <td class="column1 style0 s">supplément en vigueur</td>
+          </tr>
+          <tr class="row392">
+            <td class="column0 style0 s">wing area</td>
+            <td class="column1 style0 s">surface alaire</td>
+          </tr>
+          <tr class="row393">
+            <td class="column0 style0 s">overspeed</td>
+            <td class="column1 style0 s">survitesse</td>
+          </tr>
+          <tr class="row394">
+            <td class="column0 style0 s">weapons system</td>
+            <td class="column1 style0 s">système d'armes</td>
+          </tr>
+          <tr class="row395">
+            <td class="column0 style0 s">warning systems</td>
+            <td class="column1 style0 s">systèmes avertisseurs</td>
+          </tr>
+          <tr class="row396">
+            <td class="column0 style0 s">panel</td>
+            <td class="column1 style0 s">tableau</td>
+          </tr>
+          <tr class="row397">
+            <td class="column0 style0 s">weapons panel</td>
+            <td class="column1 style0 s">tableau d'armement</td>
+          </tr>
+          <tr class="row398">
+            <td class="column0 style0 s">failure panel</td>
+            <td class="column1 style0 s">tableau de panne</td>
+          </tr>
+          <tr class="row399">
+            <td class="column0 style0 s">TABLE OF CONTENTS</td>
+            <td class="column1 style0 s">TABLES DES MATIERES</td>
+          </tr>
+          <tr class="row400">
+            <td class="column0 style0 s">TACAN</td>
+            <td class="column1 style0 s">TACAN</td>
+          </tr>
+          <tr class="row401">
+            <td class="column0 style0 s">tachometer</td>
+            <td class="column1 style0 s">tachymètre</td>
+          </tr>
+          <tr class="row402">
+            <td class="column0 style0 s">head-down</td>
+            <td class="column1 style0 s">tete basse</td>
+          </tr>
+          <tr class="row403">
+            <td class="column0 style0 s">head-up</td>
+            <td class="column1 style0 s">tete haute</td>
+          </tr>
+          <tr class="row404">
+            <td class="column0 style0 s">fead-level</td>
+            <td class="column1 style0 s">tete moyenne</td>
+          </tr>
+          <tr class="row405">
+            <td class="column0 style0 s">dassault-aviation. com/en/services/bilingual-index/</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row406">
+            <td class="column0 style0 s">all out</td>
+            <td class="column1 style0 s">tout sorti</td>
+          </tr>
+          <tr class="row407">
+            <td class="column0 style0 s">rpm</td>
+            <td class="column1 style0 s">tr/mn</td>
+          </tr>
+          <tr class="row408">
+            <td class="column0 style0 s">landing gear</td>
+            <td class="column1 style0 s">tram d'atterissage</td>
+          </tr>
+          <tr class="row409">
+            <td class="column0 style0 s">TRANSFORMER RECTIFIERS</td>
+            <td class="column1 style0 s">TRANSFO- REDRESSEURS</td>
+          </tr>
+          <tr class="row410">
+            <td class="column0 style0 s">tricycle</td>
+            <td class="column1 style0 s">tricycle</td>
+          </tr>
+          <tr class="row411">
+            <td class="column0 style0 s">TBO-17-10605_Aircraft Manual</td>
+            <td class="column1 style0 s">2018-01-12T17:01:07</td>
+          </tr>
+          <tr class="row412">
+            <td class="column0 style0 s">section</td>
+            <td class="column1 style0 s">tronçon</td>
+          </tr>
+          <tr class="row413">
+            <td class="column0 style0 s">free turbine</td>
+            <td class="column1 style0 s">turbine libre</td>
+          </tr>
+          <tr class="row414">
+            <td class="column0 style0 s">turbo-engine</td>
+            <td class="column1 style0 s">turbo-réacteur</td>
+          </tr>
+          <tr class="row415">
+            <td class="column0 style0 s">nozzle</td>
+            <td class="column1 style0 s">tuyère</td>
+          </tr>
+          <tr class="row416">
+            <td class="column0 style0 s">float valves</td>
+            <td class="column1 style0 s">valves a flotteur</td>
+          </tr>
+          <tr class="row417">
+            <td class="column0 style0 s">Friday</td>
+            <td class="column1 style0 s">vendredi</td>
+          </tr>
+          <tr class="row418">
+            <td class="column0 style0 s">cylinder</td>
+            <td class="column1 style0 s">vérin</td>
+          </tr>
+          <tr class="row419">
+            <td class="column0 style0 s">nozzle cylinder</td>
+            <td class="column1 style0 s">vérin de tuyère</td>
+          </tr>
+          <tr class="row420">
+            <td class="column0 style0 s">speed</td>
+            <td class="column1 style0 s">vitesse</td>
+          </tr>
+          <tr class="row421">
+            <td class="column0 style0 s">vertical speed</td>
+            <td class="column1 style0 s">vitesse verticale</td>
+          </tr>
+          <tr class="row422">
+            <td class="column0 style0 s">wing</td>
+            <td class="column1 style0 s">voilure</td>
+          </tr>
+          <tr class="row423">
+            <td class="column0 style0 s">swept-back wing</td>
+            <td class="column1 style0 s">voilure en flèche</td>
+          </tr>
+          <tr class="row424">
+            <td class="column0 style0 s">flaps</td>
+            <td class="column1 style0 s">volets</td>
+          </tr>
+          <tr class="row425">
+            <td class="column0 style0 s">combat flaps</td>
+            <td class="column1 style0 s">volets de combat</td>
+          </tr>
+          <tr class="row426">
+            <td class="column0 style0 s">wing flap</td>
+            <td class="column1 style0 s">Volets de coubure</td>
+          </tr>
+          <tr class="row427">
+            <td class="column0 style0 s">nozzle flaps</td>
+            <td class="column1 style0 s">volets de tuyère</td>
+          </tr>
+          <tr class="row428">
+            <td class="column0 style0 s">indicator light</td>
+            <td class="column1 style0 s">voyant</td>
+          </tr>
+          <tr class="row429">
+            <td class="column0 style0 s">servo unit</td>
+            <td class="column1 style0 s">boîtier d'asservissement</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
