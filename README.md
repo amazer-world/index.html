@@ -1,2 +1,19 @@
 # index.html
-index file added
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="yellow">
+    <a href="E:\downloads\Amazer\takeout for webdeployment\my creative world extracted files\French translations\C_S442578translationdone.pdf">CS 442578 tranalation done</a> <br>
+    <a href="E:\downloads\Amazer\takeout for webdeployment\my creative world extracted files\French translations\translation memory for  GrDF Suez.xlsx"> translation translation-memory-for-GrDF-Suez  </a> <br>
+    <a href="E:\downloads\Amazer\takeout for webdeployment\my creative world extracted files\French translations\Capture of Automotive translation.JPG"> Automotive file capture</a> <br>
+    <a href="E:\downloads\Amazer\takeout for webdeployment\my creative world extracted files\French translations\Glossary_Aviation.xlsx">Aviation File</a> <br>
+
+</body>
+
+</html>
